@@ -22,9 +22,9 @@ Este script le ahorrara trabajo y tiempo, su funcion principal es la creacion de
 # Instalacion:
 
 * git clone https://github.com/byteSalgado/msfpayload
-cd msfpayload
-chmod +x install.sh
-./install.sh
+* cd msfpayload
+* chmod +x install.sh
+* ./install.sh
 
 
 # Creditos:
