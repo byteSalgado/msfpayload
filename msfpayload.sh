@@ -61,12 +61,6 @@ p2="python reverse tcp"
 
 #verificacion de dependencias
 
-if [[ $EUID -ne 0 ]]; then	
-echo "														         "
-echo "(✗) No eres usuario root, para ejecutar la heramienta tienes que ejecutarla siendo root (✗)      "				  
-echo "(✗) You are not a root user, to run the tool you have to run it as root (✗)              "		
-exit 1
-fi
 
 if which msfconsole >/dev/null; then
 sleep 1
