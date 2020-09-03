@@ -26,6 +26,13 @@ Este script le ahorrara trabajo y tiempo, su funcion principal es la creacion de
 * chmod +x install.sh
 * ./install.sh
 
+# Instalacion Termux:
+
+* git clone https://github.com/byteSalgado/msfpayload
+* cd msfpayload
+* chmod +x termux_install.sh
+* ./termux_install.sh  
+
 
 # Creditos:
 
