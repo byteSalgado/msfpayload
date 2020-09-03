@@ -51,6 +51,8 @@ echo -e "$purple(*)$blue Metasploit instalado correctamente.."
 sleep 3
 clear
 fi
+mkdir dependencias_termux
+cd dependencias_termux
 
 
 if which java >/dev/null; then
@@ -63,8 +65,6 @@ echo -e "$red(Java)$nc ................................................... No In
 sleep 3
 echo -e "$purple(*)$blue instalando Java en 5 segundos.."
 sleep 5
-mkdir dependencias_termux
-cd dependencias_termux
 git clone https://github.com/MasterDevX/Termux-Java
 cd Termux-Java
 bash installjava
@@ -90,7 +90,6 @@ dpkg -i apktool_2.3.4_all.deb
 echo -e "$purple(*)$blue Apktool instalado correctamente"
 sleep 3
 cd ..
-cd ..
 clear
 fi
 
@@ -110,6 +109,7 @@ sleep 3
 clear
 fi
 clear
+cd ..
 echo -e "$purple(*)$blue Creando directorios y subcarpetas..."
 mkdir listeners
 sleep 2
