@@ -1,5 +1,5 @@
 <p align="center">
-<img src="http://imgfz.com/i/dmOuMvH.png" title="msfpayload">
+<img src="http://imgfz.com/i/dmOuMvH.png" title="KitHack">
 </p>
 
 <p align="center">
