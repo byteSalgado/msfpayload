@@ -37,7 +37,10 @@ echo -e "$red(Metasploit)$nc ...................................................
 sleep 3
 echo -e "$purple(*)$blue instalando Metasploit en 5 segundos.."
 sleep 5
-apt-get install metasploit-framework -y
+apt-get install curl -y
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
+chmod 755 msfinstall
+./msfinstall
 clear
 echo -e "$purple(*)$blue Metasploit instalado correctamente.."
 sleep 3
